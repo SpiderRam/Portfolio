@@ -1,0 +1,36 @@
+/* Background pattern from Toptal Subtle Patterns */
+.jumbotron-fluid {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    background-image: url(./images/hellebores.jpg);
+    border-bottom: solid black 2px;
+}
+
+#profilePic {
+    width: 210px;
+    height: 180px;
+    border-style: groove;
+    border-color: #8FBC8F;
+    border-width: 7px;
+}
+
+#title {
+    letter-spacing: 10px;
+    margin: 10% 0 0 12%;
+    font-family: 'Acme', sans-serif;
+    font-size: 80px;
+    color: black;
+    text-shadow: 1px 1px 2px #32CD32, 0 0 25px #ADFF2F, 0 0 5px #7FFF00;
+}
+
+#name {
+    margin: 10% 0 7% 0;
+    font-size: 45px;
+    text-shadow: 1px 1px 2px #32CD32, 0 0 25px #ADFF2F, 0 0 5px #7FFF00;
+}
+
+#email {
+    font-size: 25px;
+    text-shadow: -1px 0 #AFEEEE, 0 1px #AFEEEE, 1px 0 #AFEEEE, 0 -1px #AFEEEE;
+}
+
