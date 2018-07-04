@@ -80,6 +80,29 @@ h1 {
     padding: 20px;
 }
 
+.card-title {
+    border-bottom: black solid 1px;
+}
+
+#historyHeader {
+    border-bottom: gray solid 1px;   
+}
+
+.about {
+    border-bottom: gray solid 1px;
+    overflow: auto;
+}
+
+#edu-logos, #solarHouse, #genesis {
+    float: left;
+    margin: 5px 5px 5px 0px;
+}
+
+#bonkoukou, #wildHeron, #bootcamp {
+    float: right;
+    margin: 5px 0px 5px 5px;
+}
+
 h2 {
     margin: 0 0 1em 0;
 }
