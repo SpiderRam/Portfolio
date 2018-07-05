@@ -258,22 +258,26 @@ footer {
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+    h1{color:red}
 }
 
-/*@media all and (max-width: 1024px)
-  .sidebar.toggled
-    left: 0
-    z-index: 10
-    box-shadow: 3px 1px 10px rgba(0,0,0,.8)
-    + .main
-      overflow: hidden
-  .sidebar
-    left: -260px
-  .main
-    left: 0
-  .toggle-menu
-    z-index: 1
-    opacity: 1
-  h1
-    left: 40px
-*/
+@media all and (max-width: 1024px){
+  .sidebar.toggled {
+    left: 0;
+    z-index: 10;
+    box-shadow: 3px 1px 10px rgba(0,0,0,.8);}
+
+  .sidebar {
+    left: -260px }
+  .main {
+    left: 0 }
+  .toggle-menu {
+    z-index: 1;
+    opacity: 1; }
+  h1 {
+    left: 40px; 
+    
+}
+
+
+}
