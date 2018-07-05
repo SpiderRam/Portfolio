@@ -43,7 +43,8 @@ header {
 
 #copyright {
     float: right;
-    color: gainsboro;
+    color: #333;
+    text-shadow: 1px 1px green;
 }
 
 #content {
@@ -108,14 +109,15 @@ h1 {
     text-shadow: 1px 1px #006400;
     font-size: 25px;
     margin-top: 15px;
+    border-bottom: gray solid 1px;
 }
 
 .card-title {
     border-bottom: black solid 2px;
 }
 
-#historyHeader {
-    border-bottom: gray solid 1px;   
+#aka {
+    font-size: 20px;
 }
 
 .about {
@@ -231,12 +233,11 @@ li {
     padding: 8px 0;
 }
 
+/* Background pattern from Toptal Subtle Patterns */
 .sidenav a {
     padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #2196F3;
     display: block;
+    background-image: url(./images/qbkls/qbkls.png);
 }
 
 .sidenav a:hover {
