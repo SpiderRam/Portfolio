@@ -15,23 +15,34 @@
 
 <body>
 
-    <header>
-      <p class="lead" id="name">Carmen Owen</p>     
-      <h1 class="display-4" id="title">Portfolio</h1>
-      <div id="copyright">&copy;2018 Carmen Owen</div>
-    </header>
+  <header>
+    <p class="lead" id="name">Carmen Owen</p>     
+    <h1 class="display-4" id="title">Portfolio</h1>
+    <div id="copyright">&copy;2018 Carmen Owen</div>
+  </header>
 
-    <div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
       <nav class="navbar navbar-light bg-light">
           <!--Source: https://www.iconfinder.com/WillE -->
-        <a href="https://github.com/SpiderRam" target="_blank"><img src="./assets/images/github.png"></a>
-        <a href="https://www.linkedin.com/in/carmen-owen-aa1143162/" target="_blank"><img src="./assets/images/linkedin.png"></a>
+        <a href="https://github.com/SpiderRam" target="_blank">
+          <img src="./assets/images/github.png">
+        </a>
+        <p class="star">⭐</p>
+        <a href="https://www.linkedin.com/in/carmen-owen-aa1143162/" target="_blank">
+          <img src="./assets/images/linkedin.png">
+        </a>
+        <p class="star">⭐</p>
         <!--Source: https://www.iconfinder.com/smartsense-->
-        <a id="email" href="mailto: spiderram9918@gmail.com"><img src="./assets/images/gmail-icon.png"></a>
+        <a id="email" href="mailto: spiderram9918@gmail.com">
+          <img src="./assets/images/gmail-icon.png">
+        </a>
       </nav>
     </div>
-  
-    <div class="container">
+  </div>
+
+  <div class="row">
+    <div class="col-md-10 offset-md-1">
       <div class="card" id="meCard">
         <div class="card-header">
             About Me <span id="inWhich">(in which, I shamelessly promote myself):</span>
@@ -72,93 +83,93 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="./assets/images/p_cylon.png" alt="cylon">
-                    <div class="card-body">
-                        <p class="pText">Hangman Game</p>
-                        <p class="card-text">Demonstrates first use of Javascript.</p>
-                        <nav>
-                            <a href="https://spiderram.github.io/Word_Guess_Game/" class="link" target="_blank">Project Page</a>
-                            <a href="https://github.com/SpiderRam/Word_Guess_Game.git" class="repoLink" target="_blank">Github Repository</a>  
-                        </nav>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="./assets/images/p_agate.png" alt="agate">
-                    <div class="card-body">
-                        <p class="pText">Crystals Collector</p>
-                        <p class="card-text">Demonstrates first use of JQuery.</p>
-                        <nav>
-                            <a href="https://spiderram.github.io/unit-4-game/" class="link" target="_blank">Project Page</a>
-                            <a href="https://github.com/SpiderRam/unit-4-game.git" class="repoLink" target="_blank">Github Repository</a>  
-                        </nav>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="./assets/images/p_hosta.png" alt="hosta">
-                    <div class="card-body">
-                        <p class="pText">Botanical Trivia Game</p>
-                        <p class="card-text">JavaScript and JQuery, demonstrating timers.</p>
-                        <nav>
-                            <a href="https://spiderram.github.io/TriviaGame/" class="link" target="_blank">Project Page</a>
-                            <a href="https://github.com/SpiderRam/TriviaGame.git" class="repoLink" target="_blank">Github Repository</a>  
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="./assets/images/Escher_good_evil.jpg" alt="Escher artwork">
-                    <div class="card-body">
-                        <p class="pText">Heroes and Villains</p>
-                        <p class="card-text">Demonstrates first use of AJAX, with GIPHY API.</p>
-                        <nav>
-                            <a href="https://spiderram.github.io/Geeky_GIFs/" class="link" target="_blank">Project Page</a>
-                            <a href="https://github.com/SpiderRam/Geeky_GIFs.git" class="repoLink" target="_blank">Github Repository</a>  
-                        </nav>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="./assets/images/train_portfolio.png" alt="train tracker screenshot">
-                    <div class="card-body">
-                        <p class="pText">Train Tracker</p>
-                        <p class="card-text">Demonstrates first use of Firebase.</p>
-                        <nav>
-                            <a href="https://spiderram.github.io/Train_Schedules/" class="link" target="_blank">Project Page</a>
-                            <a href="https://github.com/SpiderRam/Train_Schedules.git" class="repoLink" target="_blank">Github Repository</a>  
-                        </nav>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="./assets/images/bottles-01.jpg" alt="wine bottles and glasses">
-                    <div class="card-body">
-                        <p class="pText">Recipe Box</p>
-                        <p class="card-text">Group project:  uses methods learned in the first eight weeks of bootcamp to create a website demonstrating acquired skills</p>
-                        <nav>
-                            <a href="https://spiderram.github.io/Recipe_Box/" class="link" target="_blank">Project Page</a>
-                            <a href="https://github.com/SpiderRam/Recipe_Box.git" class="repoLink" target="_blank">Github Repository</a>  
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+  <div class="container">
+      <div class="row">
+          <div class="col-sm">
+              <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="./assets/images/p_cylon.png" alt="cylon">
+                  <div class="card-body">
+                      <p class="pText">Hangman Game</p>
+                      <p class="card-text">Demonstrates first use of Javascript.</p>
+                      <nav>
+                          <a href="https://spiderram.github.io/Word_Guess_Game/" class="link" target="_blank">Project Page</a>
+                          <a href="https://github.com/SpiderRam/Word_Guess_Game.git" class="repoLink" target="_blank">Github Repository</a>  
+                      </nav>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm">
+              <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="./assets/images/p_agate.png" alt="agate">
+                  <div class="card-body">
+                      <p class="pText">Crystals Collector</p>
+                      <p class="card-text">Demonstrates first use of JQuery.</p>
+                      <nav>
+                          <a href="https://spiderram.github.io/unit-4-game/" class="link" target="_blank">Project Page</a>
+                          <a href="https://github.com/SpiderRam/unit-4-game.git" class="repoLink" target="_blank">Github Repository</a>  
+                      </nav>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm">
+              <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="./assets/images/p_hosta.png" alt="hosta">
+                  <div class="card-body">
+                      <p class="pText">Botanical Trivia Game</p>
+                      <p class="card-text">JavaScript and JQuery, demonstrating timers.</p>
+                      <nav>
+                          <a href="https://spiderram.github.io/TriviaGame/" class="link" target="_blank">Project Page</a>
+                          <a href="https://github.com/SpiderRam/TriviaGame.git" class="repoLink" target="_blank">Github Repository</a>  
+                      </nav>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-sm">
+              <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="./assets/images/Escher_good_evil.jpg" alt="Escher artwork">
+                  <div class="card-body">
+                      <p class="pText">Heroes and Villains</p>
+                      <p class="card-text">Demonstrates first use of AJAX, with GIPHY API.</p>
+                      <nav>
+                          <a href="https://spiderram.github.io/Geeky_GIFs/" class="link" target="_blank">Project Page</a>
+                          <a href="https://github.com/SpiderRam/Geeky_GIFs.git" class="repoLink" target="_blank">Github Repository</a>  
+                      </nav>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm">
+              <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="./assets/images/train_portfolio.png" alt="train tracker screenshot">
+                  <div class="card-body">
+                      <p class="pText">Train Tracker</p>
+                      <p class="card-text">Demonstrates first use of Firebase.</p>
+                      <nav>
+                          <a href="https://spiderram.github.io/Train_Schedules/" class="link" target="_blank">Project Page</a>
+                          <a href="https://github.com/SpiderRam/Train_Schedules.git" class="repoLink" target="_blank">Github Repository</a>  
+                      </nav>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm">
+              <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="./assets/images/bottles-01.jpg" alt="wine bottles and glasses">
+                  <div class="card-body">
+                      <p class="pText">Recipe Box</p>
+                      <p class="card-text">Group project:  uses methods learned in the first eight weeks of bootcamp to create a website demonstrating acquired skills</p>
+                      <nav>
+                          <a href="https://spiderram.github.io/Recipe_Box/" class="link" target="_blank">Project Page</a>
+                          <a href="https://github.com/SpiderRam/Recipe_Box.git" class="repoLink" target="_blank">Github Repository</a>  
+                      </nav>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 
-    ./assets
 
 </body>
 

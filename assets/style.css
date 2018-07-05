@@ -44,6 +44,11 @@ header {
     background-image: url(./images/qbkls/qbkls.png);
 }
 
+.star {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
 #aboutIntro {
     overflow: auto;
     border-bottom: black solid 2px;
@@ -78,6 +83,14 @@ header {
     font-size: 20px;
 }
 
+.card-body {
+    font-size: 20px;
+}
+
+.card-body p {
+    margin-top: 10px;
+}
+
 .about {
     border-bottom: gray solid 1px;
     overflow: auto;
@@ -85,12 +98,12 @@ header {
 
 #edu-logos, #solarHouse, #genesis {
     float: left;
-    margin: 5px 5px 5px 0px;
+    margin: 5px 15px 5px 0px;
 }
 
 #bonkoukou, #wildHeron, #bootcamp {
     float: right;
-    margin: 5px 0px 5px 5px;
+    margin: 5px 0px 5px 15px;
 }
 
 
