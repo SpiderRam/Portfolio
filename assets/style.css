@@ -15,14 +15,6 @@ header {
     overflow: auto;
 }
 
-#profilePic {
-    width: 260px;
-    height: 210px;
-    border-style: groove;
-    border-color: #8FBC8F;
-    border-width: 7px;
-}
-
 #title {
     letter-spacing: 10px;
     font-family: 'Acme', sans-serif;
@@ -47,53 +39,23 @@ header {
     text-shadow: 1px 1px green;
 }
 
-#content {
-    margin-top: 20px;
+/* Background pattern from Toptal Subtle Patterns */
+.navbar {
+    background-image: url(./images/qbkls/qbkls.png);
 }
 
-*, *:before, *:after{
-    box-sizing: border-box;
+#aboutIntro {
+    overflow: auto;
+    border-bottom: black solid 2px;
 }
 
-
-h1 {
-    font-weight: normal;
-    margin: 0;
-    padding: 0 20px;
-    line-height: 2;
-    position: relative;
-    transition: all .3s ease-out;
-}
-
-.sidebar, .main {
-    transition: all .3s ease-out;
-    overflow: scroll;
-    position: absolute;
-    top: 200px;
-    bottom: 0;
-}
-
-.sidebar {
+#profilePic {
     width: 260px;
-    background-color: #333;
-    left: 0;
-}
-
-.pText {
-    border-bottom: 3px white solid;
-}
-
-.repoLink {
-    border-left: blue solid 3px;
-    padding-left: 5px;
-}
-
-.main {
-    background-image: url(./images/escheresque_ste/escheresque_ste.png);
-    position: absolute;
-    left: 260px;
-    right: 0;
-    padding: 20px;
+    height: 210px;
+    border-style: groove;
+    border-color: #8FBC8F;
+    border-width: 7px;
+    float: right;
 }
 
 .card-header {
@@ -110,10 +72,6 @@ h1 {
     font-size: 25px;
     margin-top: 15px;
     border-bottom: gray solid 1px;
-}
-
-.card-title {
-    border-bottom: black solid 2px;
 }
 
 #aka {
@@ -135,149 +93,17 @@ h1 {
     margin: 5px 0px 5px 5px;
 }
 
-h2 {
-    margin: 0 0 1em 0;
-}
-  
-h3 {
-    background-color: #555;
-    color: #ccc;
-    margin: 0;
-    padding: 0 20px;
-    font-weight: normal;
-    line-height: 2;
-    text-transform: uppercase;
-    font-size: 90%;
-    border-bottom: black solid 1px;
-}
 
-#projectHeader {
-    border-top: black solid 2px;
-}
-  
-.toggle-menu {
-    color: #ccc;
-    text-decoration: none;
-    font-size: 50px;
-    float: left;
-    display: block;
-    position: absolute;
-    left: 0;
-    z-index: -1;
-    opacity: 0;
-    transition: opacity .3s ease-out;
-}
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background-color: #444;
-}
-li {
-    padding: 20px;
-    color: #ccc;
-    background-color: #333;
-    margin-bottom: 1px;
-    border-left: 10px solid transparent
-}
-
-#p1 {
-    width: 260px;
-    height: 200px;
-    background-image: url(./images/p_cylon.png);
-}
-
-#p2 {
-    width: 260px;
-    height: 200px;
-    background-image: url(./images/p_agate.png);
-}
+.pText {
     
-#p3 {
-    width: 260px;
-    height: 200px;
-    background-image: url(./images/p_hosta.png);
 }
 
-#p4 {
-    width: 260px;
-    height: 200px;
-    background-image: url(./images/Escher_good_evil.jpg);
-}
-
-#p5 {
-    width: 260px;
-    height: 200px;
-    background-image: url(./images/train_portfolio.png);
-}
-
-#p6 {
-    width: 260px;
-    height: 200px;
-    background-image: url(./images/bottles-01.jpg);
+.repoLink {
+    border-left: blue solid 3px;
+    padding-left: 5px;
 }
 
 .card {
     margin-top: 20px;
-}
-
-.sidenav {
-    width: 130px;
-    position: fixed;
-    z-index: 1;
-    top: 200px;
-    right: 10px;
-    background: #eee;
-    overflow-x: hidden;
-    padding: 8px 0;
-}
-
-/* Background pattern from Toptal Subtle Patterns */
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    display: block;
-    background-image: url(./images/qbkls/qbkls.png);
-}
-
-.sidenav a:hover {
-    color: #064579;
-}
-
-.main {
-    margin-right: 140px; /* Same width as the sidebar + left position in px */
-    font-size: 25px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-}
-
-footer {
-    padding: 20px;
-    margin-top: 300px;
-}
-
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-    h1{color:red}
-}
-
-@media all and (max-width: 1024px){
-  .sidebar.toggled {
-    left: 0;
-    z-index: 10;
-    box-shadow: 3px 1px 10px rgba(0,0,0,.8);}
-
-  .sidebar {
-    left: -260px }
-  .main {
-    left: 0 }
-  .toggle-menu {
-    z-index: 1;
-    opacity: 1; }
-  h1 {
-    left: 40px; 
-    
-}
-
-
 }
