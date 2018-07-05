@@ -72,6 +72,15 @@ h1 {
     left: 0;
 }
 
+.pText {
+    border-bottom: 3px white solid;
+}
+
+.repoLink {
+    border-left: blue solid 3px;
+    padding-left: 5px;
+}
+
 .main {
     background-image: url(./images/escheresque_ste/escheresque_ste.png);
     position: absolute;
@@ -80,8 +89,23 @@ h1 {
     padding: 20px;
 }
 
+.card-header {
+    text-shadow: 1px 1px #006400;
+    font-size: 28px;
+}
+
+#inWhich {
+    font-size: 22px;
+}
+
+#historyHeader {
+    text-shadow: 1px 1px #006400;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
 .card-title {
-    border-bottom: black solid 1px;
+    border-bottom: black solid 2px;
 }
 
 #historyHeader {
@@ -186,10 +210,6 @@ li {
     background-image: url(./images/bottles-01.jpg);
 }
 
-#p1Text, #p2Text, #p3Text, #p4Text, #p5Text, #p6Text {
-    border-bottom: white solid 2px;
-}
-
 .card {
     margin-top: 20px;
 }
@@ -219,7 +239,7 @@ li {
 
 .main {
     margin-right: 140px; /* Same width as the sidebar + left position in px */
-    font-size: 28px; /* Increased text to enable scrolling */
+    font-size: 25px; /* Increased text to enable scrolling */
     padding: 0px 10px;
 }
 
