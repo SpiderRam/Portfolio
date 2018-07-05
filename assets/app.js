@@ -5,7 +5,7 @@ $(function(){
     });
   });
 
-  $('.carousel').carousel()
+  
 
   //document.onpageload: display meCard but hide projectCard
   //onclick of project titles/images (p1, p2, etc.) display projectCard for each

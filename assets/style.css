@@ -38,6 +38,12 @@ header {
     font-size: 50px;
     text-shadow: 1px 1px 2px #32CD32, 0 0 25px #ADFF2F, 0 0 5px #7FFF00;
     text-align: center;
+    margin-bottom: 0px;
+}
+
+#copyright {
+    float: right;
+    color: gainsboro;
 }
 
 #content {
@@ -241,6 +247,11 @@ li {
     margin-right: 140px; /* Same width as the sidebar + left position in px */
     font-size: 25px; /* Increased text to enable scrolling */
     padding: 0px 10px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 300px;
 }
 
 @media screen and (max-height: 450px) {
