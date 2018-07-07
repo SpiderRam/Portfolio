@@ -52,6 +52,7 @@ header {
 #aboutIntro {
     overflow: auto;
     border-bottom: black solid 2px;
+    font-size: 25px;
 }
 
 #profilePic {
@@ -61,30 +62,35 @@ header {
     border-color: #8FBC8F;
     border-width: 7px;
     float: right;
+    margin: 5px 0px 5px 15px;
 }
 
 .card-header {
     text-shadow: 1px 1px #006400;
     font-size: 28px;
+    font-family: 'Acme', sans-serif;
 }
 
 #inWhich {
     font-size: 22px;
+    font-family: 'Acme', sans-serif;
 }
 
 #historyHeader {
     text-shadow: 1px 1px #006400;
-    font-size: 25px;
+    font-size: 28px;
     margin-top: 15px;
     border-bottom: gray solid 1px;
+    font-family: 'Acme', sans-serif;
 }
 
 #aka {
-    font-size: 20px;
+    font-size: 23px;
+    font-family: 'Acme', sans-serif;
 }
 
 .card-body {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .card-body p {
@@ -94,6 +100,12 @@ header {
 .about {
     border-bottom: gray solid 1px;
     overflow: auto;
+}
+
+.about img {
+    border-style: groove;
+    border-color: #8FBC8F;
+    border-width: 7px;
 }
 
 #edu-logos, #solarHouse, #genesis {
@@ -106,10 +118,26 @@ header {
     margin: 5px 0px 5px 15px;
 }
 
+.projectCardBody  {
+    background-image: url("./images/qbkls/qbkls.png");
 
+}
+
+.projectCardBody .card-text {
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.projectCardBody a {
+    padding-left: 5px;
+}
 
 .pText {
-    
+    font-family: 'Acme', sans-serif;
+    text-shadow: 1px 1px #006400;
+    border-bottom: gray solid 1px;
+    font-size: 28px;
+    padding: 10px 0px 5px 5px;
 }
 
 .repoLink {
