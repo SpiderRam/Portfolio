@@ -154,3 +154,19 @@ header {
 .card {
     margin-top: 20px;
 }
+
+footer {
+    background-image: url(./images/sedum\ copy.png);  
+    margin-top: 80px;
+    margin-bottom: 0px;
+    padding: 20px 0px;
+    font-family: 'Acme', sans-serif;
+    color: black;
+    text-shadow: 1px 1px 2px #32CD32, 0 0 25px #ADFF2F, 0 0 5px #7FFF00;
+    text-align: center;
+    font-size: 30px;
+}
+
+#link {
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
