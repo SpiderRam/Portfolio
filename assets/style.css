@@ -102,6 +102,16 @@ header {
     overflow: auto;
 }
 
+.flower {
+    background-color: #006400;
+    padding: 0px 4px;
+    border-radius: 25px;
+    color: greenyellow;
+    margin-right: 2px;
+    border: solid black 1px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 .about img {
     border-style: groove;
     border-color: #8FBC8F;
